@@ -4,6 +4,7 @@ import { connectdb } from "./database/database.js";
 import { errorMiddlewares } from "./middlewares/error.js";
 import cookieParser from "cookie-parser";
 import userRouter from "./routes/user.js";
+import cors from "cors";
 dotenv.config({
   path: "./database/config.env",
 });
